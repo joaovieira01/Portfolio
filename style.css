@@ -427,3 +427,67 @@ input:checked + .slider:before {
   background-color: #111;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 2rem 5%;
+  }
+  section {
+    padding: 8rem 5%;
+  }
+  .home {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+  .about {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+  .about-content h2 {
+    text-align: center;
+  }
+  .about-img img,
+  .home-img img {
+    width: 60vw;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+  .header {
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+  .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  .services-container,
+  .projects-box {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .services-box,
+  .project-card {
+    padding: 2rem 1rem;
+  }
+  .home-img img,
+  .about-img img {
+    width: 80vw;
+    max-width: 220px;
+  }
+}
+
