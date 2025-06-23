@@ -8,6 +8,7 @@
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="shortcut icon" type="imagex/png" href="icone.ico"> 
   </head>
   <body>
@@ -17,7 +18,7 @@
       <a href="#home" class="logo">
         João <span>Vieira</span>
       </a>
-
+      
       <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
@@ -27,7 +28,10 @@
         <a href="#projects">Projetos</a>
       </nav>
 
-      <button class="gradient-btn">Me Contate</button>
+      <label class="switch">
+        <input type="checkbox" id="toggle-theme" />
+        <span class="slider"></span>
+      </label>
 
      </header>
 
@@ -37,27 +41,27 @@
         <h3>
           Desenvolvedor <span>Front-end</span>
         </h3>
-        <p>Profissional com domínios nas tecnologias de HTML, CSS e JavaScript.</p>
+        <p id="undertext">JavaScript | HTML | CSS | Tailwind.css | React.js | Next.js</p>
           
            <div class="social-icons">
-              <a href="#"> 
+              <a href="https://github.com/joaovieira01" target="_blank"> 
                 <i class="bx bxl-github"></i>
               </a>
-              <a href="#"> 
+              <a href="https://www.linkedin.com/in/joaovieira-dev/" target="_blank"> 
                 <i class="bx bxl-linkedin-square"></i>
               </a>
-              <a href="#"> 
-                <i class="bx bxl-instagram-alt"></i>
+              <a href="mailto:joaovieira231004@gmail.com" target="_blank"> 
+                <i class="bx bxl-gmail"></i>
               </a>
-              <a href="#"> 
-                <i class="bx bxl-youtube"></i>
+              <a href="https://wa.me/5511978472907" target="_blank"> 
+                <i class="bx bxl-whatsapp"></i>
               </a>
             </div>
 
             <div class="btn-group">
-              <a href="#" class="btn">Contratar</a>
-              <a href="#contact" class="btn">Entrar em contato</a>
+                <a href="Curriculo - João Vieira.pdf" class="btn" download="Curriculo - João Vieira.pdf">Baixar CV</a>
             </div>
+
 
       </div>
 
@@ -75,42 +79,35 @@
 
           <div class="about-content">
             <h2> Sobre <span> Mim </span> </h2>
-            <p>Comecei a minha jornada na programação no ano de 2019, aprendendo os 
-              fundamentos de lógica, algorimos e linguagens. Mas onde realmente me
-            encontrei foi fazendo um site para um trabalho dentro da faculdade que descobri
-            a minha paixão por Desenvolvimento Web e Front-end. A forma como as minhas ideias
-            e criativadade podiam tomar a forma que eu quisesse, através de simples
-            linhas de código na tela do computador me fez procurar cada vez mais aprender e 
-            me aprimorar, criando projetos e vivendo de fato a vida de um desenvolvedor na
-            área. </p>
-            <a href="#" class="btn"> Leia Mais</a>
+            <p>Sou João Vieira, estudante de Engenharia de Software, 
+              apaixonado por desenvolvimento front-end e criação de 
+              interfaces modernas e funcionais. Tenho experiência com 
+              tecnologias como HTML, CSS, JavaScript, React, Figma, 
+              Python e SQL, além de atuação em projetos reais envolvendo 
+              UX/UI, prototipagem e desenvolvimento web. Busco sempre 
+              evoluir, aprender e colaborar em projetos que entreguem 
+              valor aos usuários. </p>
           </div>
       </section>
       
       <section class="services" id="services">
 
-        <h2 class="heading">Serviços</h2>
+        <h2 class="heading">Habilidades</h2>
 
         <div class="services-container">
           <div class="services-box">
             <div class="service-info">
               <i class="bx bxl-figma"></i>
-              <h4> Wireframe e Design com Figma </h4>
-              <p> Fiz o protótipo de todas as páginas a Academy One, site de estágio
-              da faculdade Eniac de guarulhos da qual faço parte. Portanto tenho um conhecimento
-              de padronização de estilo, a proporção e utilização da ferramenta Figma
-              apurado por conta desta experiência.</p>
+              <h4> Figma </h4>
+              <p> </p>
             </div>
           </div>
 
             <div class="services-box">
               <div class="service-info">
                 <i class="bx bxl-javascript"></i>
-                <h4> Front-End</h4>
-                <p> Desenvolvi alguns site utilizando o puro do HTML/CSS e JS, tendo
-                  arquitetado, claro, o meu próprio portfólio, mas também sites para projetos
-                  de PHP e API's da faculdade, sites com integração de bancos de dados SQL 
-                  e NoSQL além de ter ajudado a montar a página inicial do Academy One.
+                <h4> JavaScript </h4>
+                <p> 
                 </p>
               </div>
             </div>
@@ -118,12 +115,57 @@
               <div class="services-box">
                 <div class="service-info">
                   <i class="bx bxl-react"></i>
-                  <h4> FrameWorks </h4>
-                  <p> Não possuo uma experiência solida ainda em frameworks, mas estou
-                    estudando e vou adicioná-las aqui em breve!
+                  <h4> React.js </h4>
+                  <p> 
                   </p>
                 </div>
               </div>
+
+              <div class="services-box">
+                <div class="service-info">
+                  <i class="bx bxl-html5"></i>
+                  <h4> HTML </h4>
+                  <p> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-box">
+                <div class="service-info">
+                  <i class="bx bxl-css3"></i>
+                  <h4> CSS </h4>
+                  <p> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-box">
+                <div class="service-info">
+                  <i class="bx bxl-tailwind-css"></i>
+                  <h4> TailWind </h4>
+                  <p> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-box">
+                <div class="service-info">
+                  <i class="devicon-nextjs-plain"></i>
+                  <h4> Next.js </h4>
+                  <p> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="services-box">
+                <div class="service-info">
+                  <i class="devicon-mysql-original"></i>
+                  <h4> MySQL </h4>
+                  <p> 
+                  </p>
+                </div>
+              </div>
+
           </div>
         </div>
 
@@ -137,70 +179,29 @@
 
           <div class="project-card">
             <img src="project1.png" alt="">
-            <h3> Projeto Iris </h3>
-            <p> Projeto de um aplicativo Android feito no Android 
-            Studio com o objetivo de ser um jogo digital voltado para a inclusão de 
-            pessoas surdas em jogos mobile. Este projeto foi feito se utizando da
-            linguagem Java, Figma para criação de Wireframe e também MySQL para integração de
-            banco de dados.</p>
-            <div class="btn" onclick=""> Conferir projeto</div>
+            <h3> Academy One </h3>
+            <p> Atuei na criação da identidade visual, desenvolvimento front-end e UX/UI da plataforma. Participei da construção de protótipos no Figma, 
+              definição de padrões visuais, versionamento no GitHub e aplicação de metodologias ágeis. O protótipo final foi validado e utilizado pela própria 
+              instituição como base para desenvolvimento interno.</p>
+            <div class="btn-group"> 
+              <a href="https://eniacacademy.com.br" class="btn" target="_blank"> Visitar Projeto </a> 
+            </div>
+    
           </div>
 
           <div class="project-card">
             <img src="project2.png" alt="">
-            <h3> JRN Imports </h3>
-            <p> Projeto feito nos semestres iniciais da facudade com mais outros 2 colegas, 
-              consiste em um dashboard interativo feito no Google Sheets de uma loja de roupas importas fictícia,
-            mas que se utiliza de dados reais para mostrar gráficos e tabelas com dados
-            realistas e dinâmicos através dos filtros das tabelas.</p>
-            <div class="btn"> Conferir projeto</div>
-          </div>
-
-          <div class="project-card">
-            <img src="project3.png" alt="">
-            <h3> Academy One Learning Platform </h3>
-            <p> Wireframe avançado da estrutura do site da Academy One do Eniac, e seu portal 
-            de notícias e ensino. Todas as telas foram feitas por mim e com auxilio de outros 
-            3 colegas dos quais ficaram mais encarregados na parte de desenvolvimento em si
-            do website. O projeto teve continuidade se utilizando como base meu wireframe, mas
-            por conta da minha saída do estágio da Academy alguns meses durante o desenvolvimento 
-            do projeto, não participei mais em seu desenvolvimento de lá para cá.  </p>
-            <div class="btn"> Conferir projeto</div>
-          </div>
-
-          <div class="project-card">
-            <img src="project4.png" alt="">
-            <h3> Animais Terrestres: Missão Salvamento </h3>
-            <p> Projeto feito em colaboração com mais outros 2 colegos, do qual consiste em 
-            a conceitualização de um jogo de tabuleiro analógico onde os jogadores passam por 
-            um tabueiro lúdico dividido em 5 biomas diferentes, onde cada casa pode trazer 
-            desafios ou vantagens que vão levar eles até a linha de chegada, e assim finalmente
-            salvar os animais ameaçados da região através de cartas para cada animal. Eu fiquei
-           responsável pelo tabuleiro neste projeto, fazendo toda a sua arte vetorizada e também
-            pela criação das representações gráficas das regras e jogadores. </p>
-            <div class="btn"> Conferir projeto</div>
-          </div>
-
-          <div class="project-card">
-            <img src="project5.png" alt="">
             <h3> Calculadora </h3>
             <p> Calculadora simples feita através de JavaScript da qual realiza operações 
               fundamentais de divisão, multiplicação, adição e subtração além de também
             possibilitar operações com número negativos e com ponto flutuante.</p>
-            <div class="btn"> Conferir projeto</div>
+            <div class="btn-group"> 
+              <a href="https://github.com/joaovieira01/Calculadora" class="btn" target="_blank"> Visitar Repositório </a> 
+            </div>
+            <div class="btn-group"> 
+              <a href="https://calculadora-portfolio.vercel.app" class="btn" target="_blank"> Visitar Projeto </a> 
+            </div>
           </div>
-
-          <div class="project-card">
-            <img src="project6.png" alt="">
-            <h3> Amazon </h3>
-            <p> Projeto em andamento de um curso que estou fazendo do qual vai consistir
-              de um guia para iniciar nos estudos de JavaScript de forma mais aprofundada e 
-            também criar uma cópia do site da Amazon com um carrinho de compras funcional
-            além de um processo de compra simulado totalmente construído com direito até 
-            a sessão de rastrear produto. </p>
-            <div class="btn"> Conferir projeto</div>
-          </div>
-
       </div>
 
       </section>
